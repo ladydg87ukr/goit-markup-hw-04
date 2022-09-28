@@ -76,32 +76,15 @@ body {
   gap: 8px;
 }
 
-.list-portfolio {
+.list-portfolio,
+.list-our-works,
+.list-our-team,
+.list-our-clients {
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
-}
-
-.list-our-works {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  gap: 30px;
-}
-
-.ourworks-image:last-child {
-  margin-right: 0;
-}
-
-.list-our-team {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
   gap: 30px;
 }
 
@@ -135,7 +118,8 @@ body {
 
 .features-maintext,
 .ourworks-maintext,
-.ourteam-maintext {
+.ourteam-maintext,
+.ourclients-maintext {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
@@ -400,7 +384,8 @@ body {
 }
 
 .features,
-.ourteam {
+.ourteam,
+.ourclients {
   padding-top: 94px;
   padding-bottom: 94px;
 }
