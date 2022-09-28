@@ -102,7 +102,7 @@ body {
   border-radius: 0px 0px 4px 4px;
 }
 
-.list-our-substrate {
+.list-our-team-substrate {
   background-color: var(--primary-background-color);
   text-align: center;
   padding-top: 30px;
@@ -130,12 +130,21 @@ body {
 }
 
 .maintextheader-features {
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  margin-top: 0;
   margin-bottom: 10px;
+}
+
+.maintextheader-features,
+.maintextheader-join-us {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    margin-top: 0;
+}
+
+.maintextheader-join-us {
+    margin-bottom: 20px;
+    color: var(--primary-background-color);
 }
 
 .maintextheader-team {
@@ -421,6 +430,23 @@ body {
   cursor: pointer;
 }
 
+/* Секція Постійні клієнти */
+
+.our-clients-link {
+    gap: 30px;
+}
+
+.list-our-clients-substrate {
+    background-color: var(--primary-background-color);
+    text-align: center;
+    padding: 16px 32px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+
+}
+
+/* Кнопки */
+
 .button.primary {
   color: var(--light-text-color);
   background-color: var(--accent-text-color);
@@ -470,6 +496,13 @@ body {
   height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.flex-footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    gap: 70px;
 }
 
 .address {
