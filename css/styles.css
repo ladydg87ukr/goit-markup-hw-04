@@ -370,6 +370,10 @@ body {
   background-color: var(--section-ourteam-background-color);
 }
 
+.icon {
+ fill: var(--svg-main-color);
+}
+
 .soc-icons-list {
     padding: 0 0;
     margin-top: 10px;
