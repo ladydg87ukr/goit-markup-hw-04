@@ -265,6 +265,10 @@ body {
 
 /* Контактная информация */
 
+.header-contacts-icon {
+    margin-right: 10px;
+}
+
 .contacts {
   display: flex;
   font-weight: 500;
@@ -373,6 +377,28 @@ body {
   background-color: var(--section-ourteam-background-color);
 }
 
+.soc-icons-list {
+    padding: 0 0;
+    margin-top: 10px;
+    list-style: none;
+    gap: 10px;
+}
+
+.soc-icons-list,
+.soc-icons-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.soc-icons-link {    
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: var(--accent-text-color);
+}
+
 .features,
 .ourteam {
   padding-top: 94px;
@@ -393,6 +419,9 @@ body {
     height: 120px;
     background-color: var(--section-ourteam-background-color);
     margin-bottom: 30px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
 }
 
 .features-block-icon {
