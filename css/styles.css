@@ -374,6 +374,10 @@ body {
  fill: var(--svg-main-color);
 }
 
+/*.soc-icons-icon {
+    fill: var(--svg-main-color);
+}*/
+
 .soc-icons-list {
     padding: 0 0;
     margin-top: 10px;
@@ -388,12 +392,23 @@ body {
     align-items: center;
 }
 
-.soc-icons-link {    
+.soc-icons-link {
+    display: flex;   
     padding: 12px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    fill: var(--svg-main-color);
+}
+
+.soc-icons-link:hover,
+.soc-icons-link:focus {
     background-color: var(--accent-text-color);
+}
+
+.soc-icons-link:hover .soc-icons-icon,
+.soc-icons-link:focus .soc-icons-icon {
+    fill: var(--light-text-color);
 }
 
 .features,
