@@ -460,6 +460,7 @@ body {
     width: 270px;
     height: 120px;
     background-color: var(--section-ourteam-background-color);
+    border-radius: 4px;
     margin-bottom: 30px;
     display: flex;
     justify-content:center;
@@ -506,6 +507,7 @@ body {
 .list-our-clients-substrate:focus .our-clients-icon {
     fill: var(--accent-text-color);
 }
+
 
 /* Кнопки */
 
