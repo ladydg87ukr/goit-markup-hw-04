@@ -51,6 +51,12 @@ body {
 .container-contacts {
   display: flex;
   margin-left: auto;
+  justify-content: baseline;
+}
+
+.contacts-li {
+    justify-content: center;
+    text-align: center;
 }
 
 .main-portfolio {
@@ -271,6 +277,10 @@ body {
 .email-header,
 .tel-header {
   color: var(--grey-text-color);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .email-header:hover,
@@ -311,6 +321,8 @@ body {
 
 .contacts li {
   margin-right: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .contacts-footer {
