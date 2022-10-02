@@ -114,6 +114,11 @@ body {
   padding: 20px 24px;
 }
 
+.li-portfolio:hover,
+.li-portfolio:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 /* Заголовки */
 
 .features-maintext,
@@ -259,8 +264,35 @@ body {
 /* Контактная информация */
 
 .header-contacts-icon {
+    fill: var(--svg-main-color);
     margin-right: 10px;
 }
+
+.email-header,
+.tel-header {
+  color: var(--grey-text-color);
+}
+
+.email-header:hover,
+.email-header:focus {
+    color: var(--accent-text-color);
+}
+
+.tel-header:hover,
+.tel-header:focus {
+    color: var(--accent-text-color);
+}
+
+.email-header:hover .header-contacts-icon,
+.email-header:focus .header-contacts-icon {
+  fill: var(--accent-text-color);
+}
+
+.tel-header:hover .header-contacts-icon,
+.tel-header:focus .header-contacts-icon {
+  fill: var(--accent-text-color);
+}
+
 
 .contacts {
   display: flex;
@@ -293,21 +325,6 @@ body {
   margin-top: 9px;
   margin-bottom: 9px;
   display: block;
-}
-
-.email-header,
-.tel-header {
-  color: var(--grey-text-color);
-}
-
-.email-header:hover,
-.email-header:focus {
-  color: var(--accent-text-color);
-}
-
-.tel-header:hover,
-.tel-header:focus {
-  color: var(--accent-text-color);
 }
 
 /* Герой */
@@ -370,11 +387,11 @@ body {
   background-color: var(--section-ourteam-background-color);
 }
 
-.icon {
+/* .icon {
  fill: var(--svg-main-color);
 }
 
-/*.soc-icons-icon {
+.soc-icons-icon {
     fill: var(--svg-main-color);
 }*/
 
@@ -451,6 +468,10 @@ body {
 
 /* Секція Постійні клієнти */
 
+.our-clients-icon {
+    fill: var(--svg-main-color);
+}
+
 .our-clients-link {
     gap: 30px;
 }
@@ -462,6 +483,16 @@ body {
     border: 1px solid #AFB1B8;
     border-radius: 4px;
 
+}
+
+.list-our-clients-substrate:hover,
+.list-our-clients-substrate:focus {
+    border-color: var(--accent-text-color);
+}
+
+.list-our-clients-substrate:hover .our-clients-icon,
+.list-our-clients-substrate:focus .our-clients-icon {
+    fill: var(--accent-text-color);
 }
 
 /* Кнопки */
@@ -502,6 +533,7 @@ body {
 .button.secondary:focus {
   background-color: var(--accent-text-color);
   color: var(--light-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .uppercase {
