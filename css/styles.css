@@ -599,3 +599,24 @@ body {
 .tel-footer:focus {
   color: var(--accent-text-color);
 }
+
+
+.footer-soc-icons-link {
+    display: flex;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: var(--light-text-color);
+}
+
+.footer-soc-icons-link:hover,
+.footer-soc-icons-link:focus {
+    background-color: var(--accent-text-color);
+}
+
+.footer-soc-icons-link:hover .footer-soc-icons-icon,
+.footer-soc-icons-link:focus .footer-soc-icons-icon {
+    fill: var(--light-text-color);
+}
