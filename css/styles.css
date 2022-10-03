@@ -485,26 +485,31 @@ body {
     fill: var(--svg-main-color);
 }
 
-.our-clients-link {
-    gap: 30px;
+.list-our-clients-substrate {
+    display: flex;
+    align-items: center;
+    fill: var(--svg-main-color);
 }
 
-.list-our-clients-substrate {
-    background-color: var(--primary-background-color);
-    text-align: center;
-    padding: 16px 32px;
+.our-clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-
 }
 
-.list-our-clients-substrate:hover,
-.list-our-clients-substrate:focus {
+/* substrate - это подложка, div */
+
+.our-clients-link:focus,
+.our-clients-link:hover {
     border-color: var(--accent-text-color);
 }
 
-.list-our-clients-substrate:hover .our-clients-icon,
-.list-our-clients-substrate:focus .our-clients-icon {
+.our-clients-link:focus .our-clients-icon,
+.our-clients-link:hover .our-clients-icon {
     fill: var(--accent-text-color);
 }
 
