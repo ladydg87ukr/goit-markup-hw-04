@@ -94,6 +94,7 @@ body {
   gap: 30px;
 }
 
+.our-works-image,
 .our-team-image,
 .portfolio-image {
   display: block;
